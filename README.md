@@ -103,17 +103,12 @@ Run Locally
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/loan-approval-prediction.git
+git clone https://github.com/BismaNisar/loan-approval-prediction.git
 cd loan-approval-prediction
 Install dependencies:
 
 bash
-pip install -r requirements.txt
-Launch Jupyter:
-
-bash
-jupyter notebook
-Open Loan Approval Prediction (1).ipynb and run all cells.
+Open Loan Approval Prediction.ipynb and run all cells.
 
 Make sure Loan_Data.csv is in the same directory as the notebook.
 
@@ -136,11 +131,7 @@ No cross-validation performed in the initial version.
 🔮 Future Improvements
 Apply k-fold cross-validation for robust evaluation.
 
-Try advanced models: XGBoost, LightGBM, CatBoost.
-
-Address class imbalance using SMOTE.
-
-Perform hyperparameter tuning (GridSearchCV / RandomizedSearchCV).
+Perform hyperparameter tuning.
 
 Deploy the best model using Flask or Streamlit.
 
